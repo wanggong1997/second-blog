@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>表单1</title>
+</head>
+<body>
+    
+   
+    <form action="/password.txt" method="GET">   
+        <div class="username">
+            <label for="username">姓名:</label>
+            <input id="username" type="text" name="username" placeholder="用户名">
+        </div>
+        <div class="password">
+            <label for="password">密码:</label>
+            <input id="password" type="password" name="password" placeholder="请输入密码">
+        </div>
+        <div class="sex">
+            <label >性别：</label>
+            <input id="sex1" type="radio" name="sex" value="man">
+            <label for="sex1">男</label>
+            <input id="sex2" type="radio" name="sex" value="woman">
+            <label for="sex2">女</label>
+        </div>
+        <div class="orientation">
+                <label >取向：</label>
+                <input id="orientation1" type="radio" name="orientation" value="man">
+                <label for="orientation1">男</label>
+                <input id="orientation2" type="radio" name="orientation" value="woman">
+                <label for="orientation2">女</label>
+            </div>
+            <div class="hobby">
+                <label>爱好:</label>
+                <input id="hobby1" type="checkbox" class="hobby" name="hobby" value="dota">
+                <label for="hobby1">dota</label>
+                <input id="hobby2" type="checkbox" class="hobby" name="hobby" value="travel">
+                <label for="hobby2">旅游</label>
+                <input id="hobby3" type="checkbox" class="hobby" name="hobby" value="pet">
+                <label for="hobby3">宠物</label>
+            </div>
+            <div class="writ">
+                <label for="write">评论：</label>
+                <textarea  id="write" name="write" cols="40" rows="15">ddd</textarea>
+            </div>
+            <div class="select">
+                <label for="car">我的car:</label>
+                <select name="city" id="car">
+                    <option value="shabo" selected>萨博</option>
+                    <option value="xiaobo">小博</option>
+                    <option value="dabo">大博</option>
+                </select>
+            </div>
+        
+    </form>
+    
+</body>
+</html>
